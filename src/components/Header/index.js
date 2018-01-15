@@ -20,10 +20,10 @@ const Header = () => (
           to="/"
           style={{
             color: 'white',
-            textDecoration: 'none',
+            textDecoration: 'none'
           }}
         >
-          Gatsby
+          ToppleIt
         </Link>
       </h1>
     </div>
