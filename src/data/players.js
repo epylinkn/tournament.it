@@ -1,51 +1,172 @@
+const EAGLES = "eagles"
+const FALCONS = "falcons"
+const JAGUARS = "jaguars"
+const PATRIOTS = "patriots"
+const SAINTS = "saints"
+const STEELERS = "steelers"
+const TITANS = "titans"
+const VIKINGS = "vikings"
+
 module.exports = [
   {
     name: "anthony",
     predictions: [
       // superbowl
-      ["saints", "steelers"],
+      [SAINTS, STEELERS],
 
       // conference championships
-      ["saints", "falcons"],
-      ["steelers", "patriots"],
+      [SAINTS, FALCONS],
+      [STEELERS, PATRIOTS],
 
       // divisional round
-      ["saints", "vikings"],
-      ["falcons", "eagles"],
-      ["patriots", "titans"],
-      ["steelers", "jaguars"]
+      [SAINTS, VIKINGS],
+      [FALCONS, EAGLES],
+      [PATRIOTS, TITANS],
+      [STEELERS, JAGUARS]
+    ]
+  }, {
+    name: "ish",
+    predictions: [
+      // superbowl
+      [STEELERS, EAGLES],
+
+      // conference championships
+      [EAGLES, SAINTS],
+      [STEELERS, PATRIOTS],
+
+      // divisional round
+      [SAINTS, VIKINGS],
+      [EAGLES, FALCONS],
+      [PATRIOTS, TITANS],
+      [STEELERS, JAGUARS]
+    ]
+  }, {
+    name: "aaron",
+    predictions: [
+      // superbowl
+      [STEELERS, SAINTS],
+
+      // conference championships
+      [SAINTS, FALCONS],
+      [STEELERS, PATRIOTS],
+
+      // divisional round
+      [SAINTS, VIKINGS],
+      [FALCONS, EAGLES],
+      [PATRIOTS, TITANS],
+      [STEELERS, JAGUARS]
+    ]
+  }, {
+    name: "chuong",
+    predictions: [
+      // superbowl
+      [SAINTS, STEELERS],
+
+      // conference championships
+      [SAINTS, FALCONS],
+      [STEELERS, PATRIOTS],
+
+      // divisional round
+      [SAINTS, VIKINGS],
+      [FALCONS, EAGLES],
+      [PATRIOTS, TITANS],
+      [STEELERS, JAGUARS]
     ]
   }, {
     name: "madi",
     predictions: [
       // superbowl
-      ["vikings", "patriots"],
+      [VIKINGS, PATRIOTS],
 
       // conference championships
-      ["vikings", "eagles"],
-      ["patriots", "jaguars"],
+      [VIKINGS, EAGLES],
+      [PATRIOTS, JAGUARS],
 
       // divisional round
-      ["patriots", "titans"],
-      ["jaguars", "steelers"],
-      ["eagles", "falcons"],
-      ["vikings", "saints"]
+      [PATRIOTS, TITANS],
+      [JAGUARS, STEELERS],
+      [EAGLES, FALCONS],
+      [VIKINGS, SAINTS]
+    ]
+  }, {
+    name: "alma",
+    predictions: [
+      // superbowl
+      [STEELERS, SAINTS],
+
+      // conference championships
+      [STEELERS, PATRIOTS],
+      [SAINTS, EAGLES],
+
+      // divisional round
+      [PATRIOTS, TITANS],
+      [STEELERS, JAGUARS],
+      [EAGLES, FALCONS],
+      [SAINTS, VIKINGS]
+    ]
+  }, {
+    name: "donald",
+    predictions: [
+      // superbowl
+      [SAINTS, PATRIOTS],
+
+      // conference championships
+      [SAINTS, FALCONS],
+      [PATRIOTS, STEELERS],
+
+      // divisional round
+      [SAINTS, VIKINGS],
+      [FALCONS, EAGLES],
+      [PATRIOTS, TITANS],
+      [STEELERS, JAGUARS]
+    ]
+  }, {
+    name: "gerson",
+    predictions: [
+      // superbowl
+      [STEELERS, VIKINGS],
+
+      // conference championships
+      [STEELERS, PATRIOTS],
+      [VIKINGS, FALCONS],
+
+      // divisional round
+      [FALCONS, EAGLES],
+      [VIKINGS, SAINTS],
+      [PATRIOTS, TITANS],
+      [STEELERS, JAGUARS]
+    ]
+  }, {
+    name: "don",
+    predictions: [
+      // superbowl
+      [VIKINGS, STEELERS],
+
+      // conference championships
+      [STEELERS, PATRIOTS],
+      [VIKINGS, FALCONS],
+
+      // divisional round
+      [FALCONS, EAGLES],
+      [VIKINGS, SAINTS],
+      [PATRIOTS, TITANS],
+      [STEELERS, JAGUARS]
     ]
   }, {
     name: "daniel",
     predictions: [
       // superbowl
-      ["steelers", "saints"],
+      [STEELERS, SAINTS],
 
       // conference championships
-      ["steelers", "patriots"],
-      ["saints", "falcons"],
+      [STEELERS, PATRIOTS],
+      [SAINTS, FALCONS],
 
       // divisional round
-      ["steelers", "jaguars"],
-      ["patriots", "titans"],
-      ["falcons", "eagles"],
-      ["saints", "vikings"]
+      [STEELERS, JAGUARS],
+      [PATRIOTS, TITANS],
+      [FALCONS, EAGLES],
+      [SAINTS, VIKINGS]
     ]
   }
 ]
