@@ -25,6 +25,22 @@ module.exports = [
       [STEELERS, JAGUARS]
     ]
   }, {
+    name: "steve",
+    predictions: [
+      // superbowl
+      [FALCONS, STEELERS],
+
+      // conference championships
+      [FALCONS, SAINTS],
+      [STEELERS, TITANS],
+
+      // divisional round
+      [SAINTS, VIKINGS],
+      [FALCONS, EAGLES],
+      [TITANS, PATRIOTS],
+      [STEELERS, JAGUARS]
+    ]
+  }, {
     name: "ish",
     predictions: [
       // superbowl
