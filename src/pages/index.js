@@ -2,6 +2,8 @@ import React from 'react'
 import Link from 'gatsby-link'
 import { Bracket } from 'react-tournament-bracket'
 import JSOG from 'jsog'
+import UserBracketSummary from '../components/UserBracketSummary'
+import PLAYERS from '../data/players.js'
 
 var NFL_PLAYOFFS = {
   "@id": "1",
@@ -203,8 +205,15 @@ const BRACKET = JSOG.decode(NFL_PLAYOFFS)
 
 const IndexPage = () => (
   <div>
-    <h1>AFC</h1>
+    <h1>SuperBowl 2018</h1>
     <Bracket game={BRACKET} homeOnTop={false} />
+
+    <h2>Leaderboard</h2>
+    {
+      PLAYERS.map((player) =>
+        <UserBracketSummary player={player} key={player.name} />
+      )
+    }
   </div>
 )
 

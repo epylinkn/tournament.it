@@ -9,6 +9,7 @@
     "gatsby-plugin-react-helmet": "^2.0.3",
     "gatsby-plugin-typography": "^1.7.10",
     "jsog": "^1.0.7",
+    "lodash": "^4.17.4",
     "react-helmet": "^5.2.0",
     "react-tournament-bracket": "^0.1.0",
     "typography-theme-twin-peaks": "^0.15.11"
