@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Topple It | Tournaments for Everything',
+    title: 'ToppleIt | Tournaments for Everything',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

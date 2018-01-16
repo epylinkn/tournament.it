@@ -1,28 +1,23 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import RESULTS from '../data/results.js'
+import Link from 'gatsby-link'
 
 class UserBracketSummary extends React.Component {
   constructor() {
     super()
   }
 
-  getScore() {
-    return this.props.player.predictions.reduce((sum, prediction) => {
-      let key = prediction.join(">")
-      let score = RESULTS[key] || 0
-      return sum + score
-    }, 0)
-  }
-
   render() {
     return (
-      <div>
-        <h1>{this.props.player.name}</h1>
-        <p>
-          Score:
-          {this.getScore()}
-        </p>
+      <div className="leaderboard-row">
+        <Link to={`/${this.props.player.name}`} className="unstyled">
+          <h1>
+            {this.props.player.name}
+            <div className="pull-right">
+              {this.props.player.score}
+            </div>
+          </h1>
+        </Link>
       </div>
     )
   }
@@ -31,7 +26,6 @@ class UserBracketSummary extends React.Component {
 UserBracketSummary.propTypes = {
   player: PropTypes.object,
 }
-
 
 
 export default UserBracketSummary

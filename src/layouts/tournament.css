@@ -1,0 +1,33 @@
+.debug {
+  outline: 1px solid blueviolet;
+}
+
+.pull-right {
+  float: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.leaderboard {
+  width: 60%;
+  margin: 0 auto;
+}
+
+a.unstyled {
+  color: inherit;
+  text-decoration: none;
+}
+
+.leaderboard-row {
+  border-bottom: 1px solid blueviolet;
+  padding: 10px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.leaderboard-row:hover {
+  background: blueviolet;
+  color: white;
+}

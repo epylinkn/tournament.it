@@ -1,21 +1,5 @@
 module.exports = [
   {
-    name: "madi",
-    predictions: [
-      // superbowl
-      ["vikings", "patriots"],
-
-      // conference championships
-      ["vikings", "eagles"],
-      ["patriots", "jaguars"],
-
-      // divisional round
-      ["patriots", "titans"],
-      ["jaguars", "steelers"],
-      ["eagles", "falcons"],
-      ["vikings", "saints"]
-    ]
-  }, {
     name: "anthony",
     predictions: [
       // superbowl
@@ -30,6 +14,22 @@ module.exports = [
       ["falcons", "eagles"],
       ["patriots", "titans"],
       ["steelers", "jaguars"]
+    ]
+  }, {
+    name: "madi",
+    predictions: [
+      // superbowl
+      ["vikings", "patriots"],
+
+      // conference championships
+      ["vikings", "eagles"],
+      ["patriots", "jaguars"],
+
+      // divisional round
+      ["patriots", "titans"],
+      ["jaguars", "steelers"],
+      ["eagles", "falcons"],
+      ["vikings", "saints"]
     ]
   }, {
     name: "daniel",
