@@ -29,7 +29,7 @@ module.exports = {
                 "location": "Jacksonville",
                 "name": "Jaguars"
               },
-              "score": null,
+              "score": { "score": 20 },
               "seed": {
                 "sourceGame": {
                   "@id": "10",
@@ -65,7 +65,7 @@ module.exports = {
                 "location": "New England",
                 "name": "Patriots"
               },
-              "score": null,
+              "score": { "score": 24 },
               "seed": {
                 "sourceGame": {
                   "@id": "12",

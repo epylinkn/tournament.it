@@ -6,6 +6,8 @@ import UserBracketSummary from '../components/UserBracketSummary'
 import PLAYERS from '../data/players.js'
 import NFL_PLAYOFFS from '../data/nfl_playoffs.js'
 import RESULTS from '../data/results.js'
+import POSSIBLE from '../data/possible.js'
+
 import _ from 'lodash'
 
 const BRACKET = JSOG.decode(NFL_PLAYOFFS)
@@ -18,6 +20,12 @@ class IndexPage extends React.Component {
       player['score'] = player.predictions.reduce((sum, prediction) => {
         let key = prediction.join(">")
         let score = RESULTS[key] || 0
+        return sum + score
+      }, 0)
+
+      player['possible'] = player.predictions.reduce((sum, prediction) => {
+        let key = prediction.join(">")
+        let score = POSSIBLE[key] || 0
         return sum + score
       }, 0)
 

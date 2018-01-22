@@ -15,6 +15,7 @@ class UserBracketSummary extends React.Component {
             {this.props.player.name}
             <div className="pull-right">
               {this.props.player.score}
+              ({this.props.player.possible + this.props.player.score})
             </div>
           </h1>
         </Link>
