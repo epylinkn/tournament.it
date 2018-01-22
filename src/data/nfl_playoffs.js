@@ -13,7 +13,11 @@ module.exports = {
   "sides": {
     // AFC
     "visitor": {
-      "team": null,
+      "team": {
+        "@id": "6",
+        "location": "New England",
+        "name": "Patriots"
+      },
       "score": null,
       "seed": {
         "sourceGame": {
@@ -60,11 +64,7 @@ module.exports = {
               }
             },
             "home": {
-              "team": {
-                "@id": "6",
-                "location": "New England",
-                "name": "Patriots"
-              },
+              "team": { "@ref": "6" },
               "score": { "score": 24 },
               "seed": {
                 "sourceGame": {
@@ -103,7 +103,11 @@ module.exports = {
       }
     },
     "home": {
-      "team": null,
+      "team": {
+        "@id": "9",
+        "location": "Philadelphia",
+        "name": "Eagles"
+      },
       "score": null,
       "seed": {
         "sourceGame": {
@@ -118,7 +122,7 @@ module.exports = {
                 "location": "Minnesota",
                 "name": "Vikings"
               },
-              "score": null,
+              "score": { "score": 7 },
               "seed": {
                 "sourceGame": {
                   "@id": "20",
@@ -149,12 +153,8 @@ module.exports = {
               }
             },
             "home": {
-              "team": {
-                "@id": "9",
-                "location": "Philadelphia",
-                "name": "Eagles"
-              },
-              "score": null,
+              "team": { "@ref": "9" },
+              "score": { "score": 38 },
               "seed": {
                 "sourceGame": {
                   "@id": "30",
